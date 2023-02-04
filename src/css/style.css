@@ -33,7 +33,12 @@ body {
 	font-family: 'Bebas Neue', sans-serif;
 	background-color: var(--dark);
 	letter-spacing: 1px;
-	background: url(https://img.freepik.com/foto-gratis/pared-ladrillo-negro-textura-fondo_53876-63572.jpg?w=1380&t=st=1675523653~exp=1675524253~hmac=fb1a92f86b0a35591e402f732d9f38823c8e7b683c99d18fb415de9b5c57c7e6);
+	background: linear-gradient(163deg, #111111 1px, #111111 28px, transparent 28px), linear-gradient(161deg, #111111 1px, #111111 2px, #111111 30px, transparent 30px), linear-gradient(343deg, #111111 1px, #111111 28px, transparent 28px), linear-gradient(343deg, #111111 1px, #111111 28px, transparent 28px);
+	background-color: #000;
+	background-position: 4px 2px, 46px 32px, 96px 30px, 42px 60px;
+	background-size: 96px 60px;
+
+
 }
 
 header {
