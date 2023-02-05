@@ -44,6 +44,9 @@ body {
 header {
 	background: var(--dark);
 	color: #fff;
+	position: sticky;
+	z-index: 101;
+	top: 0;
 }
 
 footer {
@@ -65,12 +68,29 @@ footer h4 {
 	padding: 30px;
 	border: 1px solid var(--primary);
 	border-radius: 50%;
+	transition: ease-in-out .3s all;
+	cursor: pointer;
 }
 
 .fa-social:hover {
 	transform: scale(1.1);
-	color: var(--white);
+	color: var(--dark) !important;
+	background-color: var(--primary);
+	transition: ease-in-out .3s all;
+}
 
+.fa-whatsapp {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 60px;
+	color: var(--dark);
+	background: var(--primary);
+	z-index: 100;
+	padding: 10px;
+	margin: 0;
+	border: 0px;
+	border-radius: 50%;
 }
 
 #logo {
@@ -103,6 +123,7 @@ header a.link {
 
 header a.link:hover {
 	border: 1px solid var(--primary);
+	color: var(--primary);
 	transition: ease-in-out .3s all;
 }
 
@@ -280,7 +301,7 @@ section .owl-nav .owl-prev {
 }
 
 section .owl-nav .owl-prev span {
-	font-size: 4rem;
+	font-size: 4rem !important;
 	color: var(--primary);
 }
 
@@ -310,7 +331,7 @@ section .owl-nav .owl-next {
 }
 
 section .owl-nav .owl-next span {
-	font-size: 4rem;
+	font-size: 4rem !important;
 	color: var(--primary);
 }
 
@@ -338,6 +359,14 @@ section:hover .owl-next {
 	border: 1px solid var(--primary);
 }
 
+.btn-warning:hover {
+	border: 1px solid var(--primary);
+	background: var(--dark) !important;
+	color: var(--primary);
+	transition: ease-in-out .3s all;
+	transform: scale(1.1);
+}
+
 .card-body {
 	color: #f3f3f3
 }
@@ -349,6 +378,7 @@ section:hover .owl-next {
 .font-weight-normal {
 	color: var(--primary);
 	padding: 15px 0;
+	font-size: 3rem;
 	border-bottom: solid 1px #f3f3f3 !important;
 }
 
@@ -387,7 +417,7 @@ h2 {
 	width: 100%;
 	border: 1px solid var(--primary);
 	border-radius: 5px;
-	background-color: #242526;
+	background-color: #121212;
 	padding: 20px;
 	color: var(--primary);
 	font-size: 24px;
@@ -449,4 +479,78 @@ input[type=submit]:hover {
 	input[type="submit"] {
 		font-size: 14px;
 	}
+}
+
+@media screen and (max-width: 992px) {
+	* {
+		font-size: 100% !important;
+	}
+
+	footer {
+		background: var(--dark);
+	}
+
+	#logo {
+		width: 250px;
+	}
+
+	#menu ul li {
+		width: 100%;
+	}
+
+	header ul li ul {
+		width: 50% !important;
+	}
+
+	header ul li ul li {
+		width: 100% !important;
+	}
+
+	.service-title {
+		font-size: 3rem !important;
+	}
+
+	.text-primary {
+		font-size: 2rem !important;
+	}
+
+	.font-weight-normal {
+		font-size: 2rem !important;
+	}
+
+	.fa.fa-whatsapp {
+		font-size: 2rem !important;
+	}
+
+	#menu-mobile li:not(.item-mm) {
+		display: inline-flex;
+		justify-content: space-between;
+	}
+
+	#menu-mobile li {
+		display: none;
+	}
+
+	#menu-mobile li.item-mm.active {
+		display: block !important;
+		flex-direction: column;
+	}
+
+	.text-white h4 {
+		font-size: 2rem !important;
+	}
+
+	.pricing-card-title {
+		font-size: 2rem !important;
+	}
+
+	.btn-warning {
+		font-size: 1.5rem !important;
+		transition: ease-in-out .3s all;
+	}
+
+	.owl-nav {
+		display: none;
+	}
+
 }

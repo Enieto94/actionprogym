@@ -10,18 +10,20 @@
 	<link rel="stylesheet" href="./src/libs/owl-carousel/owl.carousel.min.css">
 	<link rel="stylesheet" href="./src/libs/owl-carousel/owl.theme.default.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
 	<link rel="stylesheet" href="./src/css/style.css">
 </head>
 
 <body>
 	<header>
 		<div class="container-fluid py-3">
-			<section class="row">
-				<ul>
+			<section class="row" id="menu">
+				<ul class="d-none d-lg-flex ">
 					<li>
 
 						<a href="http://" target="_blank" rel="noopener noreferrer"><img src="./src/img/logo.png" alt=""
 								id="logo"></a>
+
 					</li>
 
 					<li><a class="link" href="http://" target="_blank" rel="noopener noreferrer">Inicio</a></li>
@@ -36,10 +38,42 @@
 					<li><a class="link" href="http://" target="_blank" rel="noopener noreferrer">Servicios</a></li>
 					<li><a class="link" href="http://" target="_blank" rel="noopener noreferrer">Clases grupales</a>
 					</li>
-					<li><a href="#" class="btn btn-warning">Contáctanos</a></li>
+					<li><a target="_blank"
+							href="https://api.whatsapp.com/send?phone=+573138464688&text=Quiero%20Inscribirme%20en%20ActionProGym,%20dame%20m%C3%A1s%20informaci%C3%B3n%20%F0%9F%92%AA"
+							class="btn btn-warning">Contáctanos</a></li>
+
+				</ul>
+				<ul class="d-flex d-lg-none flex-column align-items-baseline m-0 p-0" id="menu-mobile">
+					<li>
+						<a href="http://" target="_blank" rel="noopener noreferrer"
+							class="w-100 m-0 p-0 d-flex align-items-center justify-content-between">
+							<img src="./src/img/logo.png" alt="" id="logo">
+							<i class="fa fa-bars" style="font-size: 32px !important;"></i>
+						</a>
+					</li>
+
+					<li class="item-mm"><a class="link" href="http://" target="_blank"
+							rel="noopener noreferrer">Inicio</a>
+					</li>
+					<li class="item-mm"><a class="link dropdown" href="http://" target="_blank"
+							rel="noopener noreferrer">Sedes <i class="fa fa-angle-down"></i></a>
+						<ul class="m-0 p-0">
+							<li><a href="">Zipaquirá</a></li>
+							<li><a href="">Girardot</a></li>
+							<li><a href="">Madrid</a></li>
+						</ul>
+					</li>
+					<li class="item-mm"><a class="link" href="http://" target="_blank"
+							rel="noopener noreferrer">Servicios</a></li>
+					<li class="item-mm"><a class="link" href="http://" target="_blank" rel="noopener noreferrer">Clases
+							grupales</a>
+					</li>
 
 				</ul>
 			</section>
+			<a class="fa fa-social fa-whatsapp"
+				href="https://api.whatsapp.com/send?phone=+573138464688&text=Quiero%20Inscribirme%20en%20ActionProGym,%20dame%20m%C3%A1s%20informaci%C3%B3n%20%F0%9F%92%AA"
+				target="_blank" data-toggle="tooltip" data-placement="top" title="Escríbenos para más información"></a>
 		</div>
 	</header>
 	<main>
@@ -54,7 +88,7 @@
 								<div class="header-content fade-in">
 									<div class="line"></div>
 									<h2>No dejes que el estrés y la rutina diaria te agobien</h2>
-									<h1 class="text-primary">únete al gimnasio</h1>
+									<h1 class="text-primary">únete a action progym</h1>
 									<h4>
 										y libera tu mente y cuerpo mientras te mantienes
 										en forma. ¡Te esperamos!
@@ -83,16 +117,19 @@
 				</div>
 			</section>
 
-			<section class="row justify-content-around text-center py-5">
+
+			<section class="row justify-content-around text-center py-nd-5 ">
 
 				<div class="col-12">
 					<div class="row">
-						<h2 class="my-4 text-white service-title">NUESTROS SERVICIOS</h2>
+						<h2 class="my-4 text-white service-title wow bounceInUp">
+							NUESTROS SERVICIOS
+						</h2>
 					</div>
 
 					<div class="col-12">
-						<div class="row">
-							<div class="col-md-3">
+						<div class="row justify-content-center">
+							<div class="col-md-8 col-lg-3 my-md-5 my-lg-0">
 								<div class="row">
 
 									<img class="w-100"
@@ -105,7 +142,7 @@
 									desarrolles actividad física y cardiovascular.
 								</p>
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-8 col-lg-3 my-md-5 my-lg-0">
 								<div class="row">
 
 									<img class="w-100"
@@ -119,7 +156,7 @@
 								</p>
 							</div>
 
-							<div class="col-md-3">
+							<div class="col-md-8 col-lg-3 my-md-5 my-lg-0">
 								<div class="row">
 									<img class="w-100"
 										src="https://img.freepik.com/foto-gratis/pesos-ejercicio-pesas-fuerte-atletica_1139-709.jpg?size=626&ext=jpg&ga=GA1.2.468550677.1674957825&semt=sph"
@@ -131,7 +168,7 @@
 									Impartimos clases de rumboterapia los días Martes y jueves de 6:30 PM a 8:00 PM
 								</p>
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-8 col-lg-3 my-md-5 my-lg-0">
 								<div class="row">
 									<img class="w-100"
 										src="https://img.freepik.com/fotos-premium/jaula-kickboxing-octogonal-sacos-boxeo-complejo-deportivo_508835-10257.jpg?size=626&ext=jpg&ga=GA1.1.468550677.1674957825&semt=sph"
@@ -150,7 +187,7 @@
 				</div>
 
 			</section>
-			<section class="row justify-content-around text-center py-5">
+			<section class="row justify-content-around text-center py-md-5">
 
 				<div class="col-12">
 					<div class="row">
@@ -158,7 +195,7 @@
 					</div>
 				</div>
 
-				<div class="col-3 card mb-4 box-shadow">
+				<div class="col-10 col-lg-3 card mb-4 box-shadow">
 					<div class="card-header">
 						<h4 class="my-0 font-weight-normal">Mensual</h4>
 					</div>
@@ -171,10 +208,12 @@
 							<li>Email support</li>
 							<li>Help center access</li>
 						</ul>
-						<button type="button" class="btn btn-lg  btn-warning">¡LO QUIERO!</button>
+						<button type="button" class="btn btn-lg  btn-warning"><a target="_blank"
+								href="https://api.whatsapp.com/send?phone=+573138464688&text=Quiero%20Inscribirme%20en%20ActionProGym,%20dame%20m%C3%A1s%20informaci%C3%B3n%20%F0%9F%92%AA">¡LO
+								QUIERO!</a></button>
 					</div>
 				</div>
-				<div class="col-3 card mb-4 box-shadow">
+				<div class="col-10 col-lg-3 card mb-4 box-shadow">
 					<div class="card-header">
 						<h4 class="my-0 font-weight-normal">Anual</h4>
 					</div>
@@ -187,10 +226,12 @@
 							<li>Priority email support</li>
 							<li>Help center access</li>
 						</ul>
-						<button type="button" class="btn btn-lg btn-block btn-warning">¡LO QUIERO!</button>
+						<button type="button" class="btn btn-lg btn-block btn-warning"><a target="_blank"
+								href="https://api.whatsapp.com/send?phone=+573138464688&text=Quiero%20Inscribirme%20en%20ActionProGym,%20dame%20m%C3%A1s%20informaci%C3%B3n%20%F0%9F%92%AA">¡LO
+								QUIERO!</a></button>
 					</div>
 				</div>
-				<div class="col-3 card mb-4 box-shadow">
+				<div class="col-10 col-lg-3 card mb-4 box-shadow">
 					<div class="card-header">
 						<h4 class="my-0 font-weight-normal">VIP</h4>
 					</div>
@@ -203,7 +244,9 @@
 							<li>Phone and email support</li>
 							<li>Help center access</li>
 						</ul>
-						<button type="button" class="btn btn-lg btn-block btn-warning">¡LO QUIERO!</button>
+						<button type="button" class="btn btn-lg btn-block btn-warning"><a target="_blank"
+								href="https://api.whatsapp.com/send?phone=+573138464688&text=Quiero%20Inscribirme%20en%20ActionProGym,%20dame%20m%C3%A1s%20informaci%C3%B3n%20%F0%9F%92%AA">¡LO
+								QUIERO!</a></button>
 					</div>
 				</div>
 
@@ -220,7 +263,7 @@
 	<footer>
 		<div class="container-fluid">
 			<div class="row py-4 align-items-center justify-content-around">
-				<div class="col-md-7">
+				<div class="col-lg-7">
 					<div class="row px-4 text-white">
 						<h4>El gimnasio te brinda la oportunidad de alcanzar tus objetivos físicos y
 							mentales. <span style="color: var(--primary);">
@@ -232,15 +275,16 @@
 					</div>
 					<div class="d-flex justify-content-center">
 
-						<a href="http://" target="_blank" rel="noopener noreferrer">
-							<i class="fa fa-social fa-facebook text-primary"></i>
+						<a href="https://www.facebook.com/profile.php?id=100088092772937" target="_blank"
+							rel="noopener noreferrer">
+							<i class="fa fa-social fa-facebook-square text-primary"></i>
 						</a>
-						<a href="http://" target="_blank" rel="noopener noreferrer">
+						<a href="https://www.instagram.com/actionprogym/" target="_blank" rel="noopener noreferrer">
 							<i class="fa fa-social fa-instagram text-primary"></i>
 						</a>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-lg-4">
 					<div class="row">
 						<div class="container-form">
 							<h3 class="text-white">
@@ -248,13 +292,12 @@
 							</h3>
 							<form action="/action_page.php">
 								<label for="lname">Nombres</label>
-								<input type="text" id="name" name="name" placeholder="Escribe tu nombre completo">
+								<input type="text" id="name" name="name" placeholder="Ingresa tu nombre completo">
 								<label for="lname">Correo</label>
-								<input type="text" id="name" name="name" placeholder="Escribe tu correo">
+								<input type="text" id="name" name="name" placeholder="ingresa tu correo">
 
 								<label for="subject">Mensaje</label>
-								<textarea id="subject" name="subject" placeholder="Mensaje"
-									style="height:200px"></textarea>
+								<textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
 								<label for="" class="form-control"
 									style="background: transparent;color: var(--primary);border: 0;">
 									<input type="checkbox" name="tyc" id="tyc" class="mb-4">
@@ -262,7 +305,7 @@
 										condiciones</a>
 								</label>
 
-								<input type="submit" value="Enviar">
+								<input type="submit" value="Enviar" class="text-black">
 							</form>
 						</div>
 					</div>
@@ -280,6 +323,8 @@
 	<script src="./src/libs/bootstrap/bootstrap.min.js"></script>
 	<script src="./src/libs/owl-carousel/owl.carousel.min.js"></script>
 	<script src="./src/libs/font-awesome/all.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
 	<script src="./src/js/general-script.js"></script>
 
 </body>

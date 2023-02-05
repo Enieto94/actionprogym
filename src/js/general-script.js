@@ -1,4 +1,6 @@
+
 $(document).ready(function () {
+
 	$('.owl-carousel').owlCarousel({
 		loop: true,
 		margin: 10,
@@ -19,4 +21,23 @@ $(document).ready(function () {
 			}
 		}
 	});
+
+	$('.fa.fa-bars').click(function () {
+		event.preventDefault();
+		$('li.item-mm').toggleClass('active');
+	});
+
+
+});
+
+$(function () {
+	$('[data-toggle="tooltip"]').tooltip()
+});
+
+$(window).scroll(function (event) {
+	var scroll = $(window).scrollTop();
+	// Do something
+	if (scroll > 0) {
+		$('header').css('background', '#000000bc')
+	}
 });
