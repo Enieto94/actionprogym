@@ -1,4 +1,12 @@
+$(window).load(function () {
 
+	alert('algo cambió');
+	setTimeout(function () {
+		$("#firstname-b7c15390-2621-4106-998b-d0d18d63a130").css({
+			color: "#fff !important"
+		});
+	}, 3000);
+});
 $(document).ready(function () {
 
 	$('#carousel-index').owlCarousel({
