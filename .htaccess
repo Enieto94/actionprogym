@@ -1,10 +1,3 @@
-#prevenir acceso a los archivos .htaccess
-<files .htaccess> order allow,deny deny from all </files>
-RewriteEngine on RewriteCond %{HTTP_REFERER} !^$ RewriteCond %{HTTP_REFERER} !^http://(www\.)?tudominio\.com/.*$ [NC]
-RewriteRule .*\.(jpg|gif|bmp|png|mp4)$ [L]
-<IfModule mod_rewrite.c>
-	RewriteEngine On
-	RewriteCond %{HTTPS} off
-	RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI}
-	[L,R=301]
-</IfModule>
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.actionprogym.com.co/$1 [R,L]

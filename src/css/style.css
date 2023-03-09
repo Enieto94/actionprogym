@@ -80,8 +80,15 @@ footer h4 {
 	cursor: pointer;
 }
 
-.fa-social:hover {
-	transform: scale(1.1);
+.fa-tag {
+	font-size: 30px;
+	margin: 30px;
+	padding: 30px;
+}
+
+.fa-social:hover,
+.fa-tag:hover {
+	transform: scale(1.05);
 	color: var(--dark) !important;
 	background-color: var(--primary);
 	transition: ease-in-out .3s all;
@@ -99,6 +106,19 @@ footer h4 {
 	margin: 0;
 	border: 0px;
 	border-radius: 50%;
+}
+
+.fa-tag {
+	position: fixed;
+	bottom: 3%;
+	right: 10px;
+	color: var(--dark);
+	background: var(--primary);
+	z-index: 100;
+	padding: 10px;
+	margin: 0;
+	border: 0px;
+	/* border-radius: 50%; */
 }
 
 #logo {
@@ -119,7 +139,7 @@ header div section ul {
 
 header div section ul * {
 	list-style: none;
-	padding: 10px 30px;
+	padding: 5px 10px;
 	font-size: 1.3rem;
 	position: relative;
 }
@@ -127,6 +147,8 @@ header div section ul * {
 header a.link {
 	border: 1px solid transparent;
 	transition: ease-in-out .3s all;
+	display: inline-flex;
+	align-items: center;
 }
 
 header a.link:hover {
@@ -160,7 +182,7 @@ header ul li ul * {
 
 header ul li ul li {
 	margin: 0;
-	padding: 10px;
+	padding: 5px 10px;
 	list-style: none;
 	width: 100%;
 	border: 1px solid var(--primary);
@@ -481,6 +503,22 @@ input[type=submit]:hover {
 
 .sede-item .row img {
 	height: 200px;
+}
+
+.img-list {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.imglist a {
+	display: flex;
+	flex-direction: column;
+	flex: 0 0 22%;
+	margin: 20px;
+}
+
+.imglist a img {
+	width: 100%;
 }
 
 @media screen and (max-width: 600px) {

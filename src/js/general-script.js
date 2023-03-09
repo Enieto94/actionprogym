@@ -1,17 +1,28 @@
-$(window).load(function () {
-
-	alert('algo cambió');
-	setTimeout(function () {
-		$("#firstname-b7c15390-2621-4106-998b-d0d18d63a130").css({
-			color: "#fff !important"
-		});
-	}, 3000);
-});
 $(document).ready(function () {
 
 	$('#carousel-index').owlCarousel({
 		loop: true,
-		margin: 10,
+		margin: 0,
+		dots: true,
+		nav: true,
+		mouseDrag: true,
+		autoplay: true,
+		autoplayHoverPause: false,
+		responsive: {
+			0: {
+				items: 1
+			},
+			600: {
+				items: 1
+			},
+			1000: {
+				items: 1
+			}
+		}
+	});
+	$('#galeria-carousel').owlCarousel({
+		loop: true,
+		margin: 0,
 		dots: true,
 		nav: true,
 		mouseDrag: true,
@@ -93,3 +104,20 @@ $(window).scroll(function (event) {
 		$('header').css('background', '#000000bc')
 	}
 });
+$('[data-fancybox]').fancybox({
+	// Options will go here
+	buttons: [
+		'close'
+	],
+	wheel: false,
+	transitionEffect: "slide",
+	// thumbs          : false,
+	// hash            : false,
+	loop: true,
+	// keyboard        : true,
+	toolbar: false,
+	// animationEffect : false,
+	// arrows          : true,
+	clickContent: false
+});
+
