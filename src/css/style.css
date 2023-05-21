@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Russo+One&display=swap');
 
+@keyframes latidos {
+	from {
+		transform: none;
+	}
+
+	50% {
+		transform: scale(1.02);
+	}
+
+	to {
+		transform: none;
+	}
+}
+
 html {
 	scroll-behavior: smooth;
 }
@@ -22,6 +36,13 @@ html {
 
 }
 
+.amarillo {
+	color: var(--primary);
+}
+
+.blanco {
+	color: var(--white) !important;
+}
 
 
 svg {
@@ -30,7 +51,17 @@ svg {
 }
 
 .btn-warning {
+	border: 1px solid transparent;
 	background: var(--primary) !important;
+	position: relative;
+	z-index: 1000 !important;
+	animation: latidos 1s infinite;
+	transform-origin: center;
+}
+
+.list-unstyled li {
+	text-align: left !important;
+	font-size: 24px;
 }
 
 body {
@@ -51,10 +82,14 @@ body {
 
 header {
 	background: var(--dark);
-	color: #fff;
+	color: var(--white);
 	position: sticky;
 	z-index: 101;
 	top: 0;
+}
+
+.fa-circle-check {
+	color: var(--white)
 }
 
 footer {
@@ -226,7 +261,8 @@ section .item .cover .header-content {
 	position: relative;
 	padding: 56px;
 	overflow: hidden;
-	background: #000000bc
+	background: #000000bc;
+	z-index: 100;
 }
 
 section .item .cover .header-content .line {
@@ -240,6 +276,7 @@ section .item .cover .header-content .line {
 	border: 9px solid var(--primary);
 	-webkit-clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
 	clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+	z-index: 101;
 }
 
 section .item .cover .header-content h2 {
@@ -418,7 +455,7 @@ section:hover .owl-next {
 	margin: 60px 0;
 	padding: 60px 0;
 	font-size: 3rem;
-	color: var(--primary) !important;
+
 }
 
 #navs-container {

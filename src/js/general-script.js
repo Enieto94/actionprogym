@@ -6,7 +6,8 @@ $(document).ready(function () {
 		dots: true,
 		nav: true,
 		mouseDrag: true,
-		autoplay: true,
+		autoplay: false,
+		autoplayTimeout: 7000,
 		autoplayHoverPause: false,
 		responsive: {
 			0: {
@@ -80,7 +81,7 @@ $(document).ready(function () {
 				// Using jQuery's animate() method to add smooth page scroll
 				// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
 				$('html, body').animate({
-					scrollTop: $(hash).offset().top
+					scrollTop: $(hash).offset().top + 50
 				}, 300, function () {
 
 					// Add hash (#) to URL when done scrolling (default click behavior)
