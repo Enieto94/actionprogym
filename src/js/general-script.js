@@ -6,8 +6,8 @@ $(document).ready(function () {
 		dots: true,
 		nav: true,
 		mouseDrag: true,
-		autoplay: false,
-		autoplayTimeout: 7000,
+		autoplay: true,
+		autoplayTimeout: 8000,
 		autoplayHoverPause: false,
 		responsive: {
 			0: {
@@ -28,6 +28,7 @@ $(document).ready(function () {
 		nav: true,
 		mouseDrag: true,
 		autoplay: true,
+		autoplayTimeout: 3000,
 		autoplayHoverPause: false,
 		responsive: {
 			0: {
@@ -48,6 +49,7 @@ $(document).ready(function () {
 		nav: true,
 		mouseDrag: true,
 		autoplay: true,
+		autoplayTimeout: 15000,
 		autoplayHoverPause: false,
 		responsive: {
 			0: {
