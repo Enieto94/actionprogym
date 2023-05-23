@@ -7,10 +7,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="ActionproGYM" content="ActionproGYM website" />
-	<meta name="description"
-		content="No dejes que el estrés y la rutina diaria te agobien. Únete a ActionproGYM y libera tu mente y cuerpo mientras te mantienes en forma. ¡Te esperamos!">
-	<meta name="keywords"
-		content="Gimnasio, Pista atletismo y Jaula, Entrenador personal, Pesas, Cardio, Rumboterapia y Zumba">
+	<meta name="description" content="No dejes que el estrés y la rutina diaria te agobien. Únete a ActionproGYM y libera tu mente y cuerpo mientras te mantienes en forma. ¡Te esperamos!">
+	<meta name="keywords" content="Gimnasio, Pista atletismo y Jaula, Entrenador personal, Pesas, Cardio, Rumboterapia y Zumba">
 	<meta name="Language" content="Spanish" />
 	<meta name="Distribution" content="Global" />
 	<meta name="robots" content="index,follow,all" />
@@ -38,7 +36,10 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6CPVSK32RV"></script>
 <script>
 	window.dataLayer = window.dataLayer || [];
-	function gtag() { dataLayer.push(arguments); }
+
+	function gtag() {
+		dataLayer.push(arguments);
+	}
 	gtag('js', new Date());
 
 	gtag('config', 'G-6CPVSK32RV');
@@ -57,35 +58,29 @@
 
 					<li><a class="link" href="#inicio">Inicio</a></li>
 					<li><a class="link" href="#nuestros-planes">Adquiere tu plan</a></li>
-					<li><a href="#sedes" class="link dropdown" rel="noopener noreferrer">Sedes <i
-								class="fa fa-angle-down"></i></a>
+					<li><a href="#sedes" class="link dropdown" rel="noopener noreferrer">Sedes <i class="fa fa-angle-down"></i></a>
 						<ul>
 							<li><a target="_blank" href="https://www.instagram.com/actionbody_cajica/?hl=es">Cajicá</a>
 							</li>
-							<li><a target="_blank"
+							<!-- <li><a target="_blank"
 									href="https://www.instagram.com/action_body__fusagasuga/">Fusagasugá</a></li>
 							<li><a target="_blank" href="https://www.instagram.com/actionbodygirardot/">Girardot</a>
-							</li>
+							</li> -->
 							<li><a target="_blank" href="https://www.instagram.com/actionmadrid/?hl=es">Madrid</a></li>
 							<li><a target="_blank" href="https://www.instagram.com/actionbodyzipaquira/">Zipaquirá</a>
 							</li>
 						</ul>
 					</li>
 					<li><a href="#servicios" class="link">Servicios</a></li>
-					<li><a href="https://app.clez.co/index.php?r=site/actualizar_afiliado&key=50858b03a51fec165e160ac3e73be533"
-							class="link" target="_blank" rel="noopener noreferrer">Regístrate</a></li>
-					<li><a href="https://secure.clez.co/pay_dev/agenda_online/web/site/login?key=50858b03a51fec165e160ac3e73be533"
-							target="_blank" class="link">Autogestión <i class="fa fa-user"></i></a></li>
+					<li><a href="https://app.clez.co/index.php?r=site/actualizar_afiliado&key=50858b03a51fec165e160ac3e73be533" class="link" target="_blank" rel="noopener noreferrer">Regístrate</a></li>
+					<li><a href="https://secure.clez.co/pay_dev/agenda_online/web/site/login?key=50858b03a51fec165e160ac3e73be533" target="_blank" class="link">Autogestión <i class="fa fa-user"></i></a></li>
 
-					<li><a target="_blank"
-							href="https://api.whatsapp.com/send?phone=+573138464688&text=Quiero%20Inscribirme%20en%20ActionProGym,%20dame%20m%C3%A1s%20informaci%C3%B3n%20%F0%9F%92%AA"
-							class="btn btn-warning">Contáctanos</a></li>
+					<li><a target="_blank" href="https://api.whatsapp.com/send?phone=+573138464688&text=Quiero%20Inscribirme%20en%20ActionProGym,%20dame%20m%C3%A1s%20informaci%C3%B3n%20%F0%9F%92%AA" class="btn btn-warning">Contáctanos</a></li>
 
 				</ul>
 				<ul class="d-flex d-lg-none flex-column  align-items-baseline m-0 p-0" id="menu-mobile">
 					<li>
-						<a href="http://" target="_blank" rel="noopener noreferrer"
-							class="w-100 m-0 p-0 d-flex align-items-center justify-content-between">
+						<a href="http://" target="_blank" rel="noopener noreferrer" class="w-100 m-0 p-0 d-flex align-items-center justify-content-between">
 							<img src="./src/img/logo.png" alt="" id="logo">
 							<i class="fa fa-bars" style="font-size: 32px !important;"></i>
 						</a>
@@ -93,35 +88,27 @@
 
 					<li class="item-mm"><a class="link" href="#inicio">Inicio</a>
 					</li>
-					<li class="item-mm"><a class="link dropdown" href="#sedes" rel="noopener noreferrer">Sedes <i
-								class="fa fa-angle-down"></i></a>
+					<li class="item-mm"><a class="link dropdown" href="#sedes" rel="noopener noreferrer">Sedes <i class="fa fa-angle-down"></i></a>
 						<ul class="m-0 p-0">
 							<li><a target="_blank" href="https://www.instagram.com/actionbody_cajica/?hl=es">Cajicá</a>
 							</li>
-							<li><a target="_blank"
+							<!-- <li><a target="_blank"
 									href="https://www.instagram.com/action_body__fusagasuga/">Fusagasugá</a></li>
-							<li><a target="_blank" href="https://www.instagram.com/actionbodygirardot/">Girardot</a>
-							</li>
-							<li><a target="_blank" href="https://www.instagram.com/actionmadrid/?hl=es">Madrid</a></li>
-							<li><a target="_blank" href="https://www.instagram.com/actionbodyzipaquira/">Zipaquirá</a>
-							</li>
-						</ul>
+							<li><a target="_blank" href="https://www.instagram.com/actionbodygirardot/">Girardot</a> -->
 					</li>
-					<li class="item-mm"><a class="link" href="#servicios" target="_blank"
-							rel="noopener noreferrer">Servicios</a></li>
-					<li class="item-mm"><a class="link"
-							href="https://app.clez.co/index.php?r=site/actualizar_afiliado&key=50858b03a51fec165e160ac3e73be533"
-							target="_blank" rel="noopener noreferrer">Regístrate</a>
+					<li><a target="_blank" href="https://www.instagram.com/actionmadrid/?hl=es">Madrid</a></li>
+					<li><a target="_blank" href="https://www.instagram.com/actionbodyzipaquira/">Zipaquirá</a>
 					</li>
+				</ul>
+				</li>
+				<li class="item-mm"><a class="link" href="#servicios" target="_blank" rel="noopener noreferrer">Servicios</a></li>
+				<li class="item-mm"><a class="link" href="https://app.clez.co/index.php?r=site/actualizar_afiliado&key=50858b03a51fec165e160ac3e73be533" target="_blank" rel="noopener noreferrer">Regístrate</a>
+				</li>
 
 				</ul>
 			</section>
-			<a class="fa fa-social fa-whatsapp"
-				href="https://api.whatsapp.com/send?phone=+573138464688&text=Quiero%20Inscribirme%20en%20ActionProGym,%20dame%20m%C3%A1s%20informaci%C3%B3n%20%F0%9F%92%AA"
-				target="_blank" data-toggle="tooltip" data-placement="top" title="Escríbenos para más información"></a>
-			<a class="fa  fa-tag"
-				href="https://app.clez.co/index.php?r=site/actualizar_afiliado&key=50858b03a51fec165e160ac3e73be533"
-				target="_blank" data-toggle="tooltip" data-placement="top" title="Escríbenos para más información">
+			<a class="fa fa-social fa-whatsapp" href="https://api.whatsapp.com/send?phone=+573138464688&text=Quiero%20Inscribirme%20en%20ActionProGym,%20dame%20m%C3%A1s%20informaci%C3%B3n%20%F0%9F%92%AA" target="_blank" data-toggle="tooltip" data-placement="top" title="Escríbenos para más información"></a>
+			<a class="fa  fa-tag" href="https://app.clez.co/index.php?r=site/actualizar_afiliado&key=50858b03a51fec165e160ac3e73be533" target="_blank" data-toggle="tooltip" data-placement="top" title="Escríbenos para más información">
 				<span>Freepass 1 dia</span></a>
 		</div>
 	</header>
@@ -239,8 +226,7 @@
 							<li>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 									<title>checkbox-multiple-marked-circle</title>
-									<path fill="var(--primary)"
-										d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
+									<path fill="var(--primary)" d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
 								</svg>
 
 								ZONAS DE MUSCULACIÓN
@@ -249,8 +235,7 @@
 							<li>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 									<title>checkbox-multiple-marked-circle</title>
-									<path fill="var(--primary)"
-										d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
+									<path fill="var(--primary)" d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
 								</svg>
 
 								LA MEJOR ZONA DE CARDIO
@@ -259,8 +244,7 @@
 							<li>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 									<title>checkbox-multiple-marked-circle</title>
-									<path fill="var(--primary)"
-										d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
+									<path fill="var(--primary)" d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
 								</svg>
 
 								ZONA DE CLASES GRUPALES
@@ -269,8 +253,7 @@
 							<li>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 									<title>checkbox-multiple-marked-circle</title>
-									<path fill="var(--primary)"
-										d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
+									<path fill="var(--primary)" d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
 								</svg>
 
 								PISTA ATLÉTICA
@@ -279,8 +262,7 @@
 							<li>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 									<title>checkbox-multiple-marked-circle</title>
-									<path fill="var(--primary)"
-										d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
+									<path fill="var(--primary)" d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
 								</svg>
 
 								JAULA FUNCIONAL
@@ -289,8 +271,7 @@
 							<li>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 									<title>checkbox-multiple-marked-circle</title>
-									<path fill="var(--primary)"
-										d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
+									<path fill="var(--primary)" d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
 								</svg>
 
 								PESO LIBRE
@@ -299,8 +280,7 @@
 							<li>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 									<title>checkbox-multiple-marked-circle</title>
-									<path fill="var(--primary)"
-										d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
+									<path fill="var(--primary)" d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
 								</svg>
 
 								SUPLEMENTACIÓN DEPORTIVA
@@ -312,8 +292,7 @@
 
 
 						</ul>
-						<button type="button" class="btn btn-lg btn-block btn-warning"><a target="_blank"
-								href="https://api.whatsapp.com/send?phone=+573138464688&text=Quiero%20Inscribirme%20en%20ActionProGym%20Plan%20Primer%20Debito%20Automatico,%20dame%20m%C3%A1s%20informaci%C3%B3n%20%F0%9F%92%AA">ADQUIRIR</a></button>
+						<button type="button" class="btn btn-lg btn-block btn-warning"><a target="_blank" href="https://api.whatsapp.com/send?phone=+573138464688&text=Quiero%20Inscribirme%20en%20ActionProGym%20Plan%20Primer%20Debito%20Automatico,%20dame%20m%C3%A1s%20informaci%C3%B3n%20%F0%9F%92%AA">ADQUIRIR</a></button>
 					</div>
 				</div>
 				<div class="col-10 col-lg-3 card mb-4 box-shadow">
@@ -327,8 +306,7 @@
 							<li>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 									<title>checkbox-multiple-marked-circle</title>
-									<path fill="var(--primary)"
-										d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
+									<path fill="var(--primary)" d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
 								</svg>
 
 								ZONAS DE MUSCULACIÓN
@@ -337,8 +315,7 @@
 							<li>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 									<title>checkbox-multiple-marked-circle</title>
-									<path fill="var(--primary)"
-										d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
+									<path fill="var(--primary)" d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
 								</svg>
 
 								LA MEJOR ZONA DE CARDIO
@@ -347,8 +324,7 @@
 							<li>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 									<title>checkbox-multiple-marked-circle</title>
-									<path fill="var(--primary)"
-										d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
+									<path fill="var(--primary)" d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
 								</svg>
 
 								ZONA DE CLASES GRUPALES
@@ -357,8 +333,7 @@
 							<li>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 									<title>checkbox-multiple-marked-circle</title>
-									<path fill="var(--primary)"
-										d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
+									<path fill="var(--primary)" d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
 								</svg>
 
 								PISTA ATLÉTICA
@@ -367,8 +342,7 @@
 							<li>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 									<title>checkbox-multiple-marked-circle</title>
-									<path fill="var(--primary)"
-										d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
+									<path fill="var(--primary)" d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
 								</svg>
 
 								JAULA FUNCIONAL
@@ -377,8 +351,7 @@
 							<li>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 									<title>checkbox-multiple-marked-circle</title>
-									<path fill="var(--primary)"
-										d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
+									<path fill="var(--primary)" d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
 								</svg>
 
 								PESO LIBRE
@@ -387,8 +360,7 @@
 							<li>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 									<title>checkbox-multiple-marked-circle</title>
-									<path fill="var(--primary)"
-										d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
+									<path fill="var(--primary)" d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
 								</svg>
 
 								SUPLEMENTACIÓN DEPORTIVA
@@ -399,8 +371,7 @@
 
 
 						</ul>
-						<button type="button" class="btn btn-lg btn-block btn-warning"><a target="_blank"
-								href="https://api.whatsapp.com/send?phone=+573138464688&text=Quiero%20Inscribirme%20en%20ActionProGym%20Plan%20Primer%20Debito%20Automatico%20mes%202%20y%203,%20dame%20m%C3%A1s%20informaci%C3%B3n%20%F0%9F%92%AA">ADQUIRIR</a></button>
+						<button type="button" class="btn btn-lg btn-block btn-warning"><a target="_blank" href="https://api.whatsapp.com/send?phone=+573138464688&text=Quiero%20Inscribirme%20en%20ActionProGym%20Plan%20Primer%20Debito%20Automatico%20mes%202%20y%203,%20dame%20m%C3%A1s%20informaci%C3%B3n%20%F0%9F%92%AA">ADQUIRIR</a></button>
 					</div>
 				</div>
 				<div class="col-10 col-lg-3 card mb-4 box-shadow">
@@ -414,8 +385,7 @@
 							<li>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 									<title>checkbox-multiple-marked-circle</title>
-									<path fill="var(--primary)"
-										d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
+									<path fill="var(--primary)" d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
 								</svg>
 
 								ZONAS DE MUSCULACIÓN
@@ -424,8 +394,7 @@
 							<li>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 									<title>checkbox-multiple-marked-circle</title>
-									<path fill="var(--primary)"
-										d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
+									<path fill="var(--primary)" d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
 								</svg>
 
 								LA MEJOR ZONA DE CARDIO
@@ -434,8 +403,7 @@
 							<li>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 									<title>checkbox-multiple-marked-circle</title>
-									<path fill="var(--primary)"
-										d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
+									<path fill="var(--primary)" d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
 								</svg>
 
 								ZONA DE CLASES GRUPALES
@@ -444,8 +412,7 @@
 							<li>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 									<title>checkbox-multiple-marked-circle</title>
-									<path fill="var(--primary)"
-										d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
+									<path fill="var(--primary)" d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
 								</svg>
 
 								PISTA ATLÉTICA
@@ -454,8 +421,7 @@
 							<li>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 									<title>checkbox-multiple-marked-circle</title>
-									<path fill="var(--primary)"
-										d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
+									<path fill="var(--primary)" d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
 								</svg>
 
 								JAULA FUNCIONAL
@@ -464,8 +430,7 @@
 							<li>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 									<title>checkbox-multiple-marked-circle</title>
-									<path fill="var(--primary)"
-										d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
+									<path fill="var(--primary)" d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
 								</svg>
 
 								PESO LIBRE
@@ -474,16 +439,14 @@
 							<li>
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 									<title>checkbox-multiple-marked-circle</title>
-									<path fill="var(--primary)"
-										d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
+									<path fill="var(--primary)" d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10A8,8 0 0,0 14,2M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82M18.09,6.08L19.5,7.5L13,14L9.21,10.21L10.63,8.79L13,11.17" />
 								</svg>
 
 								SUPLEMENTACIÓN DEPORTIVA
 
 							</li>
 						</ul>
-						<button type="button" class="btn btn-lg btn-block btn-warning"><a target="_blank"
-								href="https://api.whatsapp.com/send?phone=+573138464688&text=Quiero%20Inscribirme%20en%20ActionProGym%20Plan%20Primer%20Debito%20Automatico%20mes%204,%205%20y%206,%20dame%20m%C3%A1s%20informaci%C3%B3n%20%F0%9F%92%AA">ADQUIRIR</a></button>
+						<button type="button" class="btn btn-lg btn-block btn-warning"><a target="_blank" href="https://api.whatsapp.com/send?phone=+573138464688&text=Quiero%20Inscribirme%20en%20ActionProGym%20Plan%20Primer%20Debito%20Automatico%20mes%204,%205%20y%206,%20dame%20m%C3%A1s%20informaci%C3%B3n%20%F0%9F%92%AA">ADQUIRIR</a></button>
 					</div>
 				</div>
 
@@ -566,151 +529,135 @@
 			</section>
 
 			<!-- Sedes -->
-			<section class="row justify-content-around" id="sedes">
+			<section class="row justify-content-center" id="sedes">
 				<h2 class="text-white service-title"><i>NUESTRAS SEDES</i></h2>
-				<div class="owl-carousel owl-theme" id="carousel-sedes">
 
-					<div class="d-flex flex-column sede-item">
-						<div class="row text-white">
-							<h3 class="text-primary">Cajicá</h3>
-							<img class="w-100" src="./src/img/sede-cajica.png" alt="">
-						</div>
-						<div class="row my-3 justify-content-center">
-							<a href="https://www.facebook.com/actionbodyced/?locale=es_LA" target="_blank"
-								class="col-10 btn btn-warning"><span><i
-										class="fa fa-facebook mx-2"></i></span><span>Síguenos en Facebook</span></a>
-						</div>
-						<div class="row my-3 justify-content-center">
-							<a href="https://www.instagram.com/actionbody_cajica/?hl=es" target="_blank"
-								class="col-10 btn btn-warning"><span><i
-										class="fa fa-instagram mx-2"></i></span><span>Síguenos en Instagram</span></a>
-						</div>
-						<div class="row my-3 justify-content-center">
-							<a href="https://goo.gl/maps/rkzWkCK3kye3Voft6" target="_blank"
-								class="col-10 btn btn-warning"><span><i
-										class="fa fa-solid fa-location-arrow mx-2"></i></span><span>Cra. 13 #4-80
-								</span></a>
-						</div>
-						<div class="row my-3 justify-content-center">
-							<a href="tel:3138464688" target="_blank" class="col-10 btn btn-warning"><span><i
-										class="fa fa-solid fa-phone mx-2 "></i></span><span> 313-846-4688
-								</span></a>
-						</div>
-					</div>
+				<div class="col-lg-8">
+					<div class="row">
+						<div class="owl-carousel owl-theme" id="carousel-sedes">
+
+							<div class="d-flex flex-column sede-item">
+								<div class="row text-white">
+									<h3 class="text-primary">Cajicá</h3>
+									<img class="w-100" src="./src/img/sede-cajica.png" alt="">
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="https://www.facebook.com/actionbodyced/?locale=es_LA" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-facebook mx-2"></i></span><span>Síguenos en Facebook</span></a>
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="https://www.instagram.com/actionbody_cajica/?hl=es" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-instagram mx-2"></i></span><span>Síguenos en Instagram</span></a>
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="https://goo.gl/maps/rkzWkCK3kye3Voft6" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-solid fa-location-arrow mx-2"></i></span><span>Cra. 13 #4-80
+										</span></a>
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="tel:3138464688" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-solid fa-phone mx-2 "></i></span><span> 313-846-4688
+										</span></a>
+								</div>
+							</div>
 
 
-					<div class="d-flex flex-column sede-item">
-						<div class="row text-white">
-							<h3 class="text-primary">Fusagasugá</h3>
-							<img class="w-100" src="./src/img/sede-fusagasuga.png" alt="">
-						</div>
-						<div class="row my-3 justify-content-center">
-							<a href="https://www.facebook.com/SportFitnessFusagasuga" target="_blank"
-								class="col-10 btn btn-warning"><span><i
-										class="fa fa-facebook mx-2"></i></span><span>Síguenos en Facebook</span></a>
-						</div>
-						<div class="row my-3 justify-content-center">
-							<a href="https://www.instagram.com/action_body__fusagasuga/" target="_blank"
-								class="col-10 btn btn-warning"><span><i
-										class="fa fa-instagram mx-2"></i></span><span>Síguenos en Instagram</span></a>
-						</div>
-						<div class="row my-3 justify-content-center">
-							<a href="https://goo.gl/maps/kYfFFeDv8q2vdYSdA" target="_blank"
-								class="col-10 btn btn-warning"><span><i
-										class="fa fa-solid fa-location-arrow mx-2"></i></span><span>Tv. 12 #22-42
-								</span></a>
-						</div>
-						<div class="row my-3 justify-content-center">
-							<a href="tel:3112120296" target="_blank" class="col-10 btn btn-warning"><span><i
-										class="fa fa-solid fa-phone mx-2 "></i></span><span> 311-212-0296
-								</span></a>
-						</div>
-					</div>
+							<!-- <div class="d-flex flex-column sede-item">
+								<div class="row text-white">
+									<h3 class="text-primary">Fusagasugá</h3>
+									<img class="w-100" src="./src/img/sede-fusagasuga.png" alt="">
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="https://www.facebook.com/SportFitnessFusagasuga" target="_blank"
+										class="col-10 btn btn-warning"><span><i
+												class="fa fa-facebook mx-2"></i></span><span>Síguenos en Facebook</span></a>
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="https://www.instagram.com/action_body__fusagasuga/" target="_blank"
+										class="col-10 btn btn-warning"><span><i
+												class="fa fa-instagram mx-2"></i></span><span>Síguenos en Instagram</span></a>
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="https://goo.gl/maps/kYfFFeDv8q2vdYSdA" target="_blank"
+										class="col-10 btn btn-warning"><span><i
+												class="fa fa-solid fa-location-arrow mx-2"></i></span><span>Tv. 12 #22-42
+										</span></a>
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="tel:3112120296" target="_blank" class="col-10 btn btn-warning"><span><i
+												class="fa fa-solid fa-phone mx-2 "></i></span><span> 311-212-0296
+										</span></a>
+								</div>
+							</div> -->
 
 
-					<div class="d-flex flex-column sede-item">
-						<div class="row text-white">
-							<h3 class="text-primary">Girardot</h3>
-							<img class="w-100" src="./src/img/sede-girardot.png" alt="">
-						</div>
-						<div class="row my-3 justify-content-center">
-							<a href="https://www.facebook.com/actionbody.girardot.7" target="_blank"
-								class="col-10 btn btn-warning"><span><i
-										class="fa fa-facebook mx-2"></i></span><span>Síguenos en Facebook</span></a>
-						</div>
-						<div class="row my-3 justify-content-center">
-							<a href="https://www.instagram.com/actionbodygirardot/" target="_blank"
-								class="col-10 btn btn-warning"><span><i
-										class="fa fa-instagram mx-2"></i></span><span>Síguenos en Instagram</span></a>
-						</div>
-						<div class="row my-3 justify-content-center">
-							<a href="https://goo.gl/maps/Rk9hrQYxP4Tq1qRu7" target="_blank"
-								class="col-10 btn btn-warning"><span><i
-										class="fa fa-solid fa-location-arrow mx-2"></i></span><span>CC Unicentro
-								</span></a>
-						</div>
-						<div class="row my-3 justify-content-center">
-							<a href="tel:3208468891" target="_blank" class="col-10 btn btn-warning"><span><i
-										class="fa fa-solid fa-phone mx-2 "></i></span><span> 320-846-8891
-								</span></a>
-						</div>
-					</div>
+							<!-- <div class="d-flex flex-column sede-item">
+								<div class="row text-white">
+									<h3 class="text-primary">Girardot</h3>
+									<img class="w-100" src="./src/img/sede-girardot.png" alt="">
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="https://www.facebook.com/actionbody.girardot.7" target="_blank"
+										class="col-10 btn btn-warning"><span><i
+												class="fa fa-facebook mx-2"></i></span><span>Síguenos en Facebook</span></a>
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="https://www.instagram.com/actionbodygirardot/" target="_blank"
+										class="col-10 btn btn-warning"><span><i
+												class="fa fa-instagram mx-2"></i></span><span>Síguenos en Instagram</span></a>
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="https://goo.gl/maps/Rk9hrQYxP4Tq1qRu7" target="_blank"
+										class="col-10 btn btn-warning"><span><i
+												class="fa fa-solid fa-location-arrow mx-2"></i></span><span>CC Unicentro
+										</span></a>
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="tel:3208468891" target="_blank" class="col-10 btn btn-warning"><span><i
+												class="fa fa-solid fa-phone mx-2 "></i></span><span> 320-846-8891
+										</span></a>
+								</div>
+							</div> -->
 
 
-					<div class="d-flex flex-column sede-item">
-						<div class="row text-white">
-							<h3 class="text-primary">Madrid</h3>
-							<img class="w-100" src="./src/img/sede-madrid.png" alt="">
-						</div>
-						<div class="row my-3 justify-content-center">
-							<a href="https://www.facebook.com/actionbodymadrid/" target="_blank"
-								class="col-10 btn btn-warning"><span><i
-										class="fa fa-facebook mx-2"></i></span><span>Síguenos en Facebook</span></a>
-						</div>
-						<div class="row my-3 justify-content-center">
-							<a href="https://www.instagram.com/actionmadrid/?hl=es" target="_blank"
-								class="col-10 btn btn-warning"><span><i
-										class="fa fa-instagram mx-2"></i></span><span>Síguenos en Instagram</span></a>
-						</div>
-						<div class="row my-3 justify-content-center">
-							<a href="https://goo.gl/maps/DekjU2JsS7fXaHyM7" target="_blank"
-								class="col-10 btn btn-warning"><span><i
-										class="fa fa-solid fa-location-arrow mx-2"></i></span><span>Cl. 7 #2-14
-								</span></a>
-						</div>
-						<div class="row my-3 justify-content-center">
-							<a href="tel:3138464688" target="_blank" class="col-10 btn btn-warning"><span><i
-										class="fa fa-solid fa-phone mx-2 "></i></span><span> 313-846-4688
-								</span></a>
-						</div>
-					</div>
+							<div class="d-flex flex-column sede-item">
+								<div class="row text-white">
+									<h3 class="text-primary">Madrid</h3>
+									<img class="w-100" src="./src/img/sede-madrid.png" alt="">
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="https://www.facebook.com/actionbodymadrid/" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-facebook mx-2"></i></span><span>Síguenos en Facebook</span></a>
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="https://www.instagram.com/actionmadrid/?hl=es" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-instagram mx-2"></i></span><span>Síguenos en Instagram</span></a>
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="https://goo.gl/maps/DekjU2JsS7fXaHyM7" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-solid fa-location-arrow mx-2"></i></span><span>Cl. 7 #2-14
+										</span></a>
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="tel:3138464688" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-solid fa-phone mx-2 "></i></span><span> 313-846-4688
+										</span></a>
+								</div>
+							</div>
 
 
-					<div class="d-flex flex-column sede-item">
-						<div class="row text-white">
-							<h3 class="text-primary">Zipaquirá</h3>
-							<img class="w-100" src="./src/img/sede-zipaquira.png" alt="">
-						</div>
-						<div class="row my-3 justify-content-center">
-							<a href="https://www.facebook.com/ActionBodyZipaquira/" target="_blank"
-								class="col-10 btn btn-warning"><span><i
-										class="fa fa-facebook mx-2"></i></span><span>Síguenos en Facebook</span></a>
-						</div>
-						<div class="row my-3 justify-content-center">
-							<a href="https://www.instagram.com/actionbodyzipaquira/" target="_blank"
-								class="col-10 btn btn-warning"><span><i
-										class="fa fa-instagram mx-2"></i></span><span>Síguenos en Instagram</span></a>
-						</div>
-						<div class="row my-3 justify-content-center">
-							<a href="https://goo.gl/maps/vRYUDdZ31GiYjNbq9" target="_blank"
-								class="col-10 btn btn-warning"><span><i
-										class="fa fa-solid fa-location-arrow mx-2"></i></span><span>Cl. 4 #15-70
-								</span></a>
-						</div>
-						<div class="row my-3 justify-content-center">
-							<a href="tel:3243305543" target="_blank" class="col-10 btn btn-warning"><span><i
-										class="fa fa-solid fa-phone mx-2 "></i></span><span> 324-330-5543
-								</span></a>
+							<div class="d-flex flex-column sede-item">
+								<div class="row text-white">
+									<h3 class="text-primary">Zipaquirá</h3>
+									<img class="w-100" src="./src/img/sede-zipaquira.png" alt="">
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="https://www.facebook.com/ActionBodyZipaquira/" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-facebook mx-2"></i></span><span>Síguenos en Facebook</span></a>
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="https://www.instagram.com/actionbodyzipaquira/" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-instagram mx-2"></i></span><span>Síguenos en Instagram</span></a>
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="https://goo.gl/maps/vRYUDdZ31GiYjNbq9" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-solid fa-location-arrow mx-2"></i></span><span>Cl. 4 #15-70
+										</span></a>
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="tel:3243305543" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-solid fa-phone mx-2 "></i></span><span> 324-330-5543
+										</span></a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -728,9 +675,9 @@
 						<div class="owl-carousel owl-theme" id="galeria-carousel">
 
 							<div class="imglist text-center row justify-content-around my-3">
-								<a href="./src/img/action_01.jpg" data-fancybox="group m-5" data-caption="">
+								<!-- <a href="./src/img/action_01.jpg" data-fancybox="group m-5" data-caption="">
 									<img height="200" src="./src/img/action_01_thumb.jpg" />
-								</a>
+								</a> -->
 
 								<a href="./src/img/action_02.jpg" data-fancybox="group m-5" data-caption="">
 									<img height="200" src="./src/img/action_02_thumb.jpg" />
@@ -774,6 +721,9 @@
 
 								<a href="./src/img/action_13.JPG" data-fancybox="group m-5" data-caption="">
 									<img height="200" src="./src/img/action_13_thumb.JPG" />
+								</a>
+								<a href="./src/img/action_14.JPG" data-fancybox="group m-5" data-caption="">
+									<img height="200" src="./src/img/action_14_thumb.JPG" />
 								</a>
 							</div>
 							<div class="imglist text-center row justify-content-around my-3">
@@ -834,10 +784,7 @@
 			<section class="row justify-content-center text-center">
 				<h2 class="text-white service-title"><i>NUESTRA UBICACIÓN</i>
 				</h2>
-				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15897.957535805188!2d-73.9951705!3d5.0240763!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x135e6f5a5b4e4a69!2sACTION%20PRO%20GYM!5e0!3m2!1ses-419!2sco!4v1675486058891!5m2!1ses-419!2sco"
-					width="100%" height="450" style="border:0;margin: 0; padding: 0;" allowfullscreen="" loading="lazy"
-					referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15897.957535805188!2d-73.9951705!3d5.0240763!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x135e6f5a5b4e4a69!2sACTION%20PRO%20GYM!5e0!3m2!1ses-419!2sco!4v1675486058891!5m2!1ses-419!2sco" width="100%" height="450" style="border:0;margin: 0; padding: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</section>
 		</div>
 	</main>
@@ -856,8 +803,7 @@
 					</div>
 					<div class="d-flex justify-content-center">
 
-						<a href="https://www.facebook.com/profile.php?id=100088092772937" target="_blank"
-							rel="noopener noreferrer">
+						<a href="https://www.facebook.com/profile.php?id=100088092772937" target="_blank" rel="noopener noreferrer">
 							<i class="fa fa-social fa-facebook-square text-primary"></i>
 						</a>
 						<a href="https://www.instagram.com/actionprogym/" target="_blank" rel="noopener noreferrer">

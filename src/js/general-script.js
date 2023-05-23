@@ -43,7 +43,7 @@ $(document).ready(function () {
 		}
 	});
 	$('#carousel-sedes').owlCarousel({
-		loop: true,
+		loop: false,
 		margin: 20,
 		dots: true,
 		nav: true,
