@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="ActionproGYM" content="ActionproGYM website" />
 	<meta name="description" content="No dejes que el estrés y la rutina diaria te agobien. Únete a ActionproGYM y libera tu mente y cuerpo mientras te mantienes en forma. ¡Te esperamos!">
-	<meta name="keywords" content="Gimnasio, Pista atletismo y Jaula, Entrenador personal, Pesas, Cardio, Rumboterapia y Zumba">
+	<meta name="keywords" content="Gimnasio, Pista atletismo y Jaula, Entrenador personal, Pesas, Cardio">
 	<meta name="Language" content="Spanish" />
 	<meta name="Distribution" content="Global" />
 	<meta name="robots" content="index,follow,all" />
@@ -60,6 +60,10 @@
 					<li><a class="link" href="#nuestros-planes">Adquiere tu plan</a></li>
 					<li><a href="#sedes" class="link dropdown" rel="noopener noreferrer">Sedes <i class="fa fa-angle-down"></i></a>
 						<ul>
+							<li><a target="_blank" href="https://www.instagram.com/actionbodyzipaquira/">Zipaquirá</a>
+							</li>
+							<li><a target="_blank" href="https://www.instagram.com/actionbodyzipaquira/">Zipaquirá (Nuevo)</a>
+							</li>
 							<li><a target="_blank" href="https://www.instagram.com/actionbody_cajica/?hl=es">Cajicá</a>
 							</li>
 							<!-- <li><a target="_blank"
@@ -67,8 +71,11 @@
 							<li><a target="_blank" href="https://www.instagram.com/actionbodygirardot/">Girardot</a>
 							</li> -->
 							<li><a target="_blank" href="https://www.instagram.com/actionmadrid/?hl=es">Madrid</a></li>
-							<li><a target="_blank" href="https://www.instagram.com/actionbodyzipaquira/">Zipaquirá</a>
+							<li><a target="_blank" href="https://www.instagram.com/actionbodyzipaquira/">Calera </a>
 							</li>
+							<li><a target="_blank" href="https://www.instagram.com/actionbodyzipaquira/">Tocancipá</a>
+							</li>
+
 						</ul>
 					</li>
 					<li><a href="#servicios" class="link">Servicios</a></li>
@@ -108,8 +115,8 @@
 				</ul>
 			</section>
 			<a class="fa fa-social fa-whatsapp" href="https://api.whatsapp.com/send?phone=+573138464688&text=Quiero%20Inscribirme%20en%20ActionProGym,%20dame%20m%C3%A1s%20informaci%C3%B3n%20%F0%9F%92%AA" target="_blank" data-toggle="tooltip" data-placement="top" title="Escríbenos para más información"></a>
-			<a class="fa  fa-tag" href="https://app.clez.co/index.php?r=site/actualizar_afiliado&key=50858b03a51fec165e160ac3e73be533" target="_blank" data-toggle="tooltip" data-placement="top" title="Escríbenos para más información">
-				<span>Freepass 1 dia</span></a>
+			<!-- <a class="fa  fa-tag" href="https://app.clez.co/index.php?r=site/actualizar_afiliado&key=50858b03a51fec165e160ac3e73be533" target="_blank" data-toggle="tooltip" data-placement="top" title="Escríbenos para más información">
+				<span>Freepass 1 dia</span></a> -->
 		</div>
 	</header>
 	<main>
@@ -126,8 +133,8 @@
 
 								<div class="header-content fade-in">
 									<div class="line"></div>
-									<h2>Plan pro débito automático por tan solo</h2>
-									<h1 class="text-primary">$39.900 primer mes</h1>
+
+									<h1 class="text-primary">$90.000 primer mes</h1>
 									<h4>
 										Más información
 									</h4>
@@ -209,7 +216,6 @@
 				<div class="col-12">
 					<div class="row">
 						<h2 class="my-4 blanco service-title"><i>NUESTROS PLANES</i>
-							<i class="text-muted"> / DÉBITO AUTOMÁTICO</i>
 						</h2>
 					</div>
 
@@ -217,10 +223,10 @@
 
 				<div class="col-10 col-lg-3 card mb-4 box-shadow">
 					<div class="card-header">
-						<h4 class="my-0 font-weight-normal">Primer mes</h4>
+						<h4 class="my-0 font-weight-normal">PLAN MENSUAL DESDE</h4>
 					</div>
 					<div class="card-body">
-						<h1 class="card-title pricing-card-title">COP $39.000<small class="text-muted"> / MES</small>
+						<h1 class="card-title pricing-card-title">COP $90.000<small class="text-muted"> / MES</small>
 						</h1>
 						<ul class="list-unstyled mt-3 mb-4">
 							<li>
@@ -295,12 +301,12 @@
 						<button type="button" class="btn btn-lg btn-block btn-warning"><a target="_blank" href="https://api.whatsapp.com/send?phone=+573138464688&text=Quiero%20Inscribirme%20en%20ActionProGym%20Plan%20Primer%20Debito%20Automatico,%20dame%20m%C3%A1s%20informaci%C3%B3n%20%F0%9F%92%AA">ADQUIRIR</a></button>
 					</div>
 				</div>
-				<div class="col-10 col-lg-3 card mb-4 box-shadow">
+				<!-- <div class="col-10 col-lg-3 card mb-4 box-shadow">
 					<div class="card-header">
 						<h4 class="my-0 font-weight-normal">MES 2 Y 3</h4>
 					</div>
 					<div class="card-body">
-						<h1 class="card-title pricing-card-title">COP $49.900<small class="text-muted"> / MES</small>
+						<h1 class="card-title pricing-card-title">COP $90.000<small class="text-muted"> / MES</small>
 						</h1>
 						<ul class="list-unstyled mt-3 mb-4">
 							<li>
@@ -448,7 +454,7 @@
 						</ul>
 						<button type="button" class="btn btn-lg btn-block btn-warning"><a target="_blank" href="https://api.whatsapp.com/send?phone=+573138464688&text=Quiero%20Inscribirme%20en%20ActionProGym%20Plan%20Primer%20Debito%20Automatico%20mes%204,%205%20y%206,%20dame%20m%C3%A1s%20informaci%C3%B3n%20%F0%9F%92%AA">ADQUIRIR</a></button>
 					</div>
-				</div>
+				</div> -->
 
 				<div class="col-12">
 					<div class="row justify-content-evenly">
@@ -500,7 +506,7 @@
 								</p>
 							</div>
 
-							<div class="col-md-8 col-lg-3 my-md-5 my-lg-0">
+							<!-- <div class="col-md-8 col-lg-3 my-md-5 my-lg-0">
 								<div class="row">
 									<img class="w-100" src="./src/img/rumboterapia.jpg" alt="">
 
@@ -509,17 +515,15 @@
 								<p class="text-white">
 									Impartimos clases de rumboterapia los días Martes y jueves de 6:30 PM a 8:00 PM
 								</p>
-							</div>
+							</div> -->
 							<div class="col-md-8 col-lg-3 my-md-5 my-lg-0">
 								<div class="row">
 									<img class="w-100" src="./src/img/pista-atletismo.jpg" alt="">
 
 								</div>
-								<h3 class="text-primary mt-4">Pista de atletismo y Jaula</h3>
+								<h3 class="text-primary mt-4">Peso libre y funcional</h3>
 								<p class="text-white">
-									En nuestras amplias instalaciones, contamos con una pista de atletismo de XXX metros
-									para que mejores tu desempeño y estés preparado para maratones o simplemente te
-									retes a ti mismo.
+									En nuestras amplias instalaciones, disfruta de la variedad de ejercicios que tenemos para ti.
 								</p>
 							</div>
 						</div>
@@ -535,7 +539,46 @@
 				<div class="col-lg-8">
 					<div class="row">
 						<div class="owl-carousel owl-theme" id="carousel-sedes">
-
+							<div class="d-flex flex-column sede-item">
+								<div class="row text-white">
+									<h3 class="text-primary">Zipaquirá (NUEVO)</h3>
+									<img class="w-100" src="./src/img/slide-17.jpg" alt="">
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="https://www.facebook.com/ActionBodyZipaquira/" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-facebook mx-2"></i></span><span>Síguenos en Facebook</span></a>
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="https://www.instagram.com/actionbodyzipaquira/" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-instagram mx-2"></i></span><span>Síguenos en Instagram</span></a>
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="https://maps.app.goo.gl/WAwekjgeg1h3goJQ8" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-solid fa-location-arrow mx-2"></i></span><span>Tv. 18 #7d-37, Zipaquirá,
+										</span></a>
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="tel:+573112814481" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-solid fa-phone mx-2 "></i></span><span> 324-330-5543
+										</span></a>
+								</div>
+							</div>
+							<div class="d-flex flex-column sede-item">
+								<div class="row text-white">
+									<h3 class="text-primary">Zipaquirá</h3>
+									<img class="w-100" src="./src/img/sede-zipaquira.png" alt="">
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="https://www.facebook.com/ActionBodyZipaquira/" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-facebook mx-2"></i></span><span>Síguenos en Facebook</span></a>
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="https://www.instagram.com/actionbodyzipaquira/" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-instagram mx-2"></i></span><span>Síguenos en Instagram</span></a>
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="https://goo.gl/maps/vRYUDdZ31GiYjNbq9" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-solid fa-location-arrow mx-2"></i></span><span>Cl. 4 #15-70
+										</span></a>
+								</div>
+								<div class="row my-3 justify-content-center">
+									<a href="tel:+573112814481" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-solid fa-phone mx-2 "></i></span><span> 324-330-5543
+										</span></a>
+								</div>
+							</div>
 							<div class="d-flex flex-column sede-item">
 								<div class="row text-white">
 									<h3 class="text-primary">Cajicá</h3>
@@ -552,7 +595,7 @@
 										</span></a>
 								</div>
 								<div class="row my-3 justify-content-center">
-									<a href="tel:3138464688" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-solid fa-phone mx-2 "></i></span><span> 313-846-4688
+									<a href="tel:+573208963889" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-solid fa-phone mx-2 "></i></span><span> 313-846-4688
 										</span></a>
 								</div>
 							</div>
@@ -632,16 +675,18 @@
 										</span></a>
 								</div>
 								<div class="row my-3 justify-content-center">
-									<a href="tel:3138464688" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-solid fa-phone mx-2 "></i></span><span> 313-846-4688
+									<a href="tel:+573227834022" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-solid fa-phone mx-2 "></i></span><span> 313-846-4688
 										</span></a>
 								</div>
 							</div>
 
 
+
+
 							<div class="d-flex flex-column sede-item">
 								<div class="row text-white">
-									<h3 class="text-primary">Zipaquirá</h3>
-									<img class="w-100" src="./src/img/sede-zipaquira.png" alt="">
+									<h3 class="text-primary">Tocancipá</h3>
+									<img class="w-100" src="./src/img/img-04.jpg" alt="">
 								</div>
 								<div class="row my-3 justify-content-center">
 									<a href="https://www.facebook.com/ActionBodyZipaquira/" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-facebook mx-2"></i></span><span>Síguenos en Facebook</span></a>
@@ -654,7 +699,7 @@
 										</span></a>
 								</div>
 								<div class="row my-3 justify-content-center">
-									<a href="tel:3243305543" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-solid fa-phone mx-2 "></i></span><span> 324-330-5543
+									<a href="tel:+573223041708" target="_blank" class="col-10 btn btn-warning"><span><i class="fa fa-solid fa-phone mx-2 "></i></span><span> 324-330-5543
 										</span></a>
 								</div>
 							</div>

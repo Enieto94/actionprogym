@@ -34,7 +34,10 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6CPVSK32RV"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'G-6CPVSK32RV');
@@ -122,7 +125,8 @@
     <main>
         <div class="container-fluid">
 
-            <section class="row justify-content-around">
+            <!-- <section class="row justify-content-around"> -->
+            <!-- 
                 <div class="col-12">
                     <div class="row">
                         <h2 class="my-4 blanco service-title"><i>NUESTROS PLANES</i>
@@ -207,10 +211,10 @@
                         <button type="button" class="btn btn-lg btn-block btn-warning"><a target="_blank"
                                 href="https://api.whatsapp.com/send?phone=+573138464688&text=Quiero%20Inscribirme%20en%20ActionProGym_Madrid%20Ultimos%204%20meses,%20dame%20m%C3%A1s%20informaci%C3%B3n%20%F0%9F%92%AA">ADQUIRIR</a></button>
                     </div>
-                </div>
+                </div> -->
 
 
-            </section>
+            <!-- </section> -->
             <section class="row justify-content-around">
                 <div class="col-12">
                     <div class="row">

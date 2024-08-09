@@ -34,7 +34,10 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6CPVSK32RV"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'G-6CPVSK32RV');
@@ -56,10 +59,10 @@
                         <ul>
                             <li><a target="_blank" href="https://www.instagram.com/actionbody_cajica/?hl=es">Cajicá</a>
                             </li>
-                            <li><a target="_blank"
+                            <!-- <li><a target="_blank"
                                     href="https://www.instagram.com/action_body__fusagasuga/">Fusagasugá</a></li>
                             <li><a target="_blank" href="https://www.instagram.com/actionbodygirardot/">Girardot</a>
-                            </li>
+                            </li> -->
                             <li><a target="_blank" href="https://www.instagram.com/actionmadrid/?hl=es">Madrid</a></li>
                             <li><a target="_blank" href="https://www.instagram.com/actionbodyzipaquira/">Zipaquirá</a>
                             </li>
@@ -113,10 +116,10 @@
             <a class="fa fa-social fa-whatsapp"
                 href="https://api.whatsapp.com/send?phone=+573138464688&text=Quiero%20Inscribirme%20en%20ActionProGym,%20dame%20m%C3%A1s%20informaci%C3%B3n%20%F0%9F%92%AA"
                 target="_blank" data-toggle="tooltip" data-placement="top" title="Escríbenos para más información"></a>
-            <a class="fa  fa-tag"
+            <!-- <a class="fa  fa-tag"
                 href="https://app.clez.co/index.php?r=site/actualizar_afiliado&key=50858b03a51fec165e160ac3e73be533"
                 target="_blank" data-toggle="tooltip" data-placement="top" title="Escríbenos para más información">
-                <span>Freepass 1 dia</span></a>
+                <span>Freepass 1 dia</span></a> -->
         </div>
     </header>
     <main>
@@ -369,7 +372,7 @@
                             rel="noopener noreferrer">
                             <i class="fa fa-social fa-facebook-square text-primary"></i>
                         </a>
-                        <a href="https://www.instagram.com/actionprogym/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/actionprogymcol/" target="_blank" rel="noopener noreferrer">
                             <i class="fa fa-social fa-instagram text-primary"></i>
                         </a>
                     </div>
